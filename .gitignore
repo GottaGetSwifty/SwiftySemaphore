@@ -21,11 +21,15 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
 
 ## Obj-C/Swift specific
 *.hmap
-
-## App packaging
 *.ipa
 *.dSYM.zip
 *.dSYM
@@ -47,6 +51,8 @@ playground.xcworkspace
 # .swiftpm
 
 .build/
+.swiftpm
+Package.resolved
 
 # CocoaPods
 #
